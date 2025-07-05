@@ -1,0 +1,132 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#181818;
+}
+body {
+    margin: 0px;    
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 460px;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-color: #f1f2f1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #444;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.geral {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+#button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4d6875;
+    color: #fff;
+    background: rgb(114, 144, 179);  /*Seta fundo padrao*/
+    background: linear-gradient(to top, rgb(76, 97, 121), rgb(232, 236, 240));
+    width: 80px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#button:hover {
+    background: #8e8e9b;
+    color:#181818;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;    
+}
+.label {
+    margin-bottom: 8px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input {
+    width: 55%;
+    height: 25px;
+}
+#second {
+    margin-right: -4px;
+    width: 55%;
+    height: 25px;
+}
+
+
+textarea {
+    height: 180px;     
+    min-width: 268px;  
+    padding: 0px 10px;       
+    font-size: 14px;    
+    resize: none;
+}
+#message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+#third_label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+} 
+#msg {
+    margin-left: -16px;
+    margin-right: 5px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+

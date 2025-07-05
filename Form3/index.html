@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario 3</title>
+</head>
+<body>
+    <main>
+        <form action="Form3/banco" method="POST" enctype="multipart/form-data">
+       
+        <fieldset>
+            <section>
+                <div class="container geral">
+
+                    <div class="header">
+                        <h1>Contact Form</h1>
+                    </div>
+
+                    <div class="container informacoes">
+
+                        <div class="container label">
+                            <label> Name: 
+                                <input id="fisrt" type="text" name="name" minlength="2" placeholder="Nome da pessoa" required>
+                            </label>
+                        </div>
+
+                        <div class="container label">
+                            <label> Email: 
+                                <input id="second" type="email" name="email" placeholder="email@email.com" required>
+                            </label>
+                        </div>
+
+                        <div class="container label" id="third_label">
+                            <label id="message"> 
+                                <div id="msg">Message: </div>
+                                <div id="txt_area">
+                                    <textarea name="message" placeholder="Mensagem"   maxlength="1000"></textarea>
+                                </div>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="container submit">
+
+                        <div class="button">
+                            <input id="button" type="submit" name="submit" value="Submit"/>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </section>
+
+        </fieldset>
+        </form>
+    </main>
+    
+</body>
+</html>
